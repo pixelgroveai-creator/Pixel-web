@@ -1,0 +1,410 @@
+[
+  {
+    "id": "PG-591871",
+    "name": "Aarav Singhania",
+    "email": "aarav.singhania@awadhgourmet.in",
+    "phone": "+91 94150 88776",
+    "company": "Awadh Gourmet Hospitality Group (Lucknow)",
+    "services": [
+      "restaurant-tech",
+      "qr-menu",
+      "crm-inventory"
+    ],
+    "budget": "5L-10L",
+    "projectDetails": "Operating 4 dining locations across Gomti Nagar and Hazratganj, Lucknow. Seeking an enterprise bilingual QR table ordering flow, autonomous kitchen display synchronizer, and inventory prediction engine.",
+    "location": "Lucknow, Uttar Pradesh, India",
+    "studioNode": "LKO-IST-01",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "authentication": {
+      "status": "AUTHENTICATED",
+      "trustScore": 100,
+      "isGenuine": true,
+      "verifiedAt": "2026-09-14T08:29:51.871Z",
+      "checks": [
+        {
+          "name": "Email Domain Integrity",
+          "passed": true,
+          "details": "Persistent email host verified (@awadhgourmet.in)."
+        },
+        {
+          "name": "Corporate Domain Analysis",
+          "passed": true,
+          "details": "Dedicated corporate/enterprise domain recognized (@awadhgourmet.in). High trust rating."
+        },
+        {
+          "name": "Client Identity Consistency",
+          "passed": true,
+          "details": "Full legal name structure detected with first and surname components."
+        },
+        {
+          "name": "Project Requirement Depth",
+          "passed": true,
+          "details": "Technical context confirmed with domain parameters (inventory, qr)."
+        },
+        {
+          "name": "Pattern Anomaly Detection",
+          "passed": true,
+          "details": "No spam anomalies or heuristic patterns identified."
+        }
+      ],
+      "suspiciousFlags": [],
+      "recommendation": "Lead verified authentic and cleared for immediate 4–6 hour discovery response."
+    },
+    "timestamp": "2026-09-14T08:29:51.871Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-294090",
+    "name": "Aarav Singhania",
+    "email": "aarav.singhania@awadhgourmet.in",
+    "phone": "+91 94150 88776",
+    "company": "Awadh Gourmet Hospitality Group (Lucknow)",
+    "services": [
+      "restaurant-tech",
+      "qr-menu",
+      "crm-inventory"
+    ],
+    "budget": "5L-10L",
+    "projectDetails": "Operating 4 dining locations across Gomti Nagar and Hazratganj, Lucknow. Seeking an enterprise bilingual QR table ordering flow, autonomous kitchen display synchronizer, and inventory prediction engine.",
+    "location": "Lucknow, Uttar Pradesh, India",
+    "studioNode": "LKO-IST-01",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "authentication": {
+      "status": "AUTHENTICATED",
+      "trustScore": 100,
+      "isGenuine": true,
+      "verifiedAt": "2026-09-14T08:24:54.090Z",
+      "checks": [
+        {
+          "name": "Email Domain Integrity",
+          "passed": true,
+          "details": "Persistent email host verified (@awadhgourmet.in)."
+        },
+        {
+          "name": "Corporate Domain Analysis",
+          "passed": true,
+          "details": "Dedicated corporate/enterprise domain recognized (@awadhgourmet.in). High trust rating."
+        },
+        {
+          "name": "Client Identity Consistency",
+          "passed": true,
+          "details": "Full legal name structure detected with first and surname components."
+        },
+        {
+          "name": "Project Requirement Depth",
+          "passed": true,
+          "details": "Technical context confirmed with domain parameters (inventory, qr)."
+        },
+        {
+          "name": "Pattern Anomaly Detection",
+          "passed": true,
+          "details": "No spam anomalies or heuristic patterns identified."
+        }
+      ],
+      "suspiciousFlags": [],
+      "recommendation": "Lead verified authentic and cleared for immediate 4–6 hour discovery response."
+    },
+    "timestamp": "2026-09-14T08:24:54.090Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-234399",
+    "name": "Kavita Rao",
+    "email": "kavita.rao@lumina-ai.com",
+    "phone": "+91 98765 11223",
+    "company": "Lumina AI Labs",
+    "services": [
+      "web",
+      "restaurant-tech",
+      "ai-stack"
+    ],
+    "budget": "5L-10L",
+    "projectDetails": "Autonomous multi-lingual kiosk interface and real-time vision inventory engine.",
+    "location": "Lucknow, Uttar Pradesh, India",
+    "studioNode": "LKO-IST-01",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "authentication": {
+      "status": "AUTHENTICATED",
+      "trustScore": 100,
+      "isGenuine": true,
+      "verifiedAt": "2026-09-14T08:07:14.399Z",
+      "checks": [
+        {
+          "name": "Email Domain Integrity",
+          "passed": true,
+          "details": "Persistent email host verified (@lumina-ai.com)."
+        },
+        {
+          "name": "Corporate Domain Analysis",
+          "passed": true,
+          "details": "Dedicated corporate/enterprise domain recognized (@lumina-ai.com). High trust rating."
+        },
+        {
+          "name": "Client Identity Consistency",
+          "passed": true,
+          "details": "Full legal name structure detected with first and surname components."
+        },
+        {
+          "name": "Project Requirement Depth",
+          "passed": true,
+          "details": "General scope outline captured; full scope will be detailed during architecture intake."
+        },
+        {
+          "name": "Pattern Anomaly Detection",
+          "passed": true,
+          "details": "No spam anomalies or heuristic patterns identified."
+        }
+      ],
+      "suspiciousFlags": [],
+      "recommendation": "Lead verified authentic and cleared for immediate 4–6 hour discovery response."
+    },
+    "timestamp": "2026-09-14T08:07:14.399Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-241085",
+    "name": "Vikram Malhotra",
+    "email": "vikram.malhotra@enterprise-ai.io",
+    "company": "Malhotra Systems",
+    "services": [
+      "web",
+      "brand"
+    ],
+    "budget": "5L-10L",
+    "projectDetails": "We need an enterprise-grade web application with real-time AI dashboards and unified design system.",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "authentication": {
+      "status": "AUTHENTICATED",
+      "trustScore": 100,
+      "isGenuine": true,
+      "verifiedAt": "2026-09-14T05:20:41.085Z",
+      "checks": [
+        {
+          "name": "Email Domain Integrity",
+          "passed": true,
+          "details": "Persistent email host verified (@enterprise-ai.io)."
+        },
+        {
+          "name": "Corporate Domain Analysis",
+          "passed": true,
+          "details": "Dedicated corporate/enterprise domain recognized (@enterprise-ai.io). High trust rating."
+        },
+        {
+          "name": "Client Identity Consistency",
+          "passed": true,
+          "details": "Full legal name structure detected with first and surname components."
+        },
+        {
+          "name": "Project Requirement Depth",
+          "passed": true,
+          "details": "Technical context confirmed with domain parameters (ai, system, app)."
+        },
+        {
+          "name": "Pattern Anomaly Detection",
+          "passed": true,
+          "details": "No spam anomalies or heuristic patterns identified."
+        }
+      ],
+      "suspiciousFlags": [],
+      "recommendation": "Lead verified authentic and cleared for immediate 4–6 hour discovery response."
+    },
+    "timestamp": "2026-09-14T05:20:41.085Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-214320",
+    "name": "test",
+    "email": "founder@company.com",
+    "company": "N/A",
+    "services": [
+      "web"
+    ],
+    "budget": "2L-5L",
+    "projectDetails": "testing this out",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "timestamp": "2026-09-14T05:20:14.320Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-693452",
+    "name": "QA Lead Test",
+    "email": "qa@example.com",
+    "company": "Test Corp",
+    "services": [
+      "web"
+    ],
+    "budget": "2L-5L",
+    "projectDetails": "Verification test without phone",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "timestamp": "2026-09-14T05:11:33.452Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-671409",
+    "name": "Aquarius QA Automated Agent",
+    "email": "qa.test@restaurantpartners.in",
+    "company": "The Grand Curry House (Mumbai)",
+    "services": [
+      "qr-menu",
+      "crm-inventory"
+    ],
+    "budget": "2L-5L",
+    "projectDetails": "Aquarius automated probe: testing digital QR menu and real-time inventory system integration.",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "timestamp": "2026-09-14T05:11:11.409Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-252327",
+    "name": "Pixelgrove Evaluation Lead",
+    "email": "pixelgrove.ai@gmail.com",
+    "company": "Pixelgrove Production Verification",
+    "services": [
+      "web",
+      "restaurant-tech",
+      "ai-stack"
+    ],
+    "budget": "5L-10L",
+    "projectDetails": "Direct user request verification: Filling this project discovery query to confirm that leads arrive in pixelgrove.ai@gmail.com. We require a modern AI stack with Google AI Studio and Anthropic Claude integration, digital dining menu, and sub-120ms load speeds.",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "timestamp": "2026-09-11T08:27:32.327Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-245935",
+    "name": "Aquarius QA Automated Agent",
+    "email": "qa.test@restaurantpartners.in",
+    "company": "The Grand Curry House (Mumbai)",
+    "services": [
+      "qr-menu",
+      "crm-inventory"
+    ],
+    "budget": "2L-5L",
+    "projectDetails": "Aquarius automated probe: testing digital QR menu and real-time inventory system integration.",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "timestamp": "2026-09-11T08:27:25.935Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-179721",
+    "name": "Sarah Jenkins",
+    "email": "sarah.j@nexustech.io",
+    "company": "Nexus Technologies",
+    "services": [
+      "web",
+      "ai-stack",
+      "qr-menu"
+    ],
+    "budget": "5L-10L",
+    "projectDetails": "We want to build an AI-powered multi-location restaurant ordering platform with automated menu recommendations and live inventory sync.",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "timestamp": "2026-09-11T08:26:19.721Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "TEST-175446",
+    "name": "Live Client Query Test",
+    "email": "pixelgrove.ai@gmail.com",
+    "company": "Pixelgrove Studio Evaluation",
+    "services": [
+      "web",
+      "restaurant-tech",
+      "ai-stack"
+    ],
+    "budget": "₹5,00,000 - ₹10,00,000",
+    "projectDetails": "Testing that inbound inquiries land directly in pixelgrove.ai@gmail.com inbox.",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "timestamp": "2026-09-11T08:26:15.446Z",
+    "source": "Live Query Verification Suite"
+  },
+  {
+    "id": "PG-291561",
+    "name": "Audit Verification",
+    "email": "verifier@pixelgrove.ai",
+    "company": "QA Verification Corp",
+    "services": [
+      "web",
+      "ai-stack"
+    ],
+    "budget": "5L-10L",
+    "projectDetails": "Verifying end-to-end routing with AI stack and toll-free contact update.",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "timestamp": "2026-09-11T08:11:31.561Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-027048",
+    "name": "Alex Mercer",
+    "email": "alex@example.com",
+    "company": "Apex Global",
+    "services": [
+      "web",
+      "media"
+    ],
+    "budget": "5L-10L",
+    "projectDetails": "Interested in autonomous AI systems.",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "timestamp": "2026-09-11T08:07:07.048Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-207168",
+    "name": "Aquarius QA Automated Agent",
+    "email": "qa.test@restaurantpartners.in",
+    "company": "The Grand Curry House (Mumbai)",
+    "services": [
+      "qr-menu",
+      "crm-inventory"
+    ],
+    "budget": "2L-5L",
+    "projectDetails": "Aquarius automated probe: testing digital QR menu and real-time inventory system integration.",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "timestamp": "2026-09-10T08:33:27.168Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-253997",
+    "name": "Aquarius QA Automated Agent",
+    "email": "qa.test@restaurantpartners.in",
+    "company": "The Grand Curry House (Mumbai)",
+    "services": [
+      "qr-menu",
+      "crm-inventory"
+    ],
+    "budget": "2L-5L",
+    "projectDetails": "Aquarius automated probe: testing digital QR menu and real-time inventory system integration.",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "timestamp": "2026-09-10T07:44:13.997Z",
+    "source": "Website Project Discovery Form"
+  }
+]

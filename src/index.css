@@ -1,0 +1,230 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  --color-surface-dim: #111319;
+  --color-surface: #111319;
+  --color-surface-bright: #37393f;
+  --color-surface-container-lowest: #0c0e13;
+  --color-surface-container-low: #191c21;
+  --color-surface-container: #1d2025;
+  --color-surface-container-high: #282a30;
+  --color-surface-container-highest: #33353b;
+  --color-surface-variant: #33353b;
+  
+  --color-on-surface: #e2e2ea;
+  --color-on-surface-variant: #c7c4d7;
+  --color-outline: #908fa0;
+  --color-outline-variant: #464554;
+  
+  --color-primary: #c0c1ff;
+  --color-primary-container: #8083ff;
+  --color-on-primary-container: #0d0096;
+  --color-primary-fixed: #e1e0ff;
+  
+  --color-secondary: #4cd7f6;
+  --color-secondary-container: #03b5d3;
+  --color-on-secondary-container: #00424e;
+  
+  --color-tertiary: #4edea3;
+  --color-tertiary-container: #00885d;
+  --color-on-tertiary-container: #000703;
+  
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-inter);
+}
+
+body {
+  background-color: #0c0e13;
+  color: #e2e2ea;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0e13;
+}
+::-webkit-scrollbar-thumb {
+  background: #282a30;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #464554;
+}
+
+/* ==========================================================================
+   Light Mode Theme Transformations (when html has .light class)
+   ========================================================================== */
+
+html.light body {
+  background-color: #f8f9fc;
+  color: #0f172a;
+}
+
+html.light ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+html.light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+}
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Background overrides */
+html.light .bg-\[\#0c0e13\],
+html.light .bg-\[\#0c0e13\]\/50,
+html.light .bg-\[\#0c0e13\]\/80,
+html.light .bg-\[\#0c0e13\]\/85 {
+  background-color: rgba(248, 249, 252, 0.95) !important;
+}
+
+html.light .bg-\[\#111319\],
+html.light .bg-\[\#111319\]\/80,
+html.light .bg-\[\#111319\]\/90,
+html.light .bg-\[\#111319\]\/95 {
+  background-color: rgba(255, 255, 255, 0.88) !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+html.light .bg-\[\#191c21\],
+html.light .bg-\[\#191c21\]\/40,
+html.light .bg-\[\#191c21\]\/60,
+html.light .bg-\[\#191c21\]\/70,
+html.light .bg-\[\#191c21\]\/80,
+html.light .bg-\[\#191c21\]\/90 {
+  background-color: #ffffff !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 1px 2px -1px rgba(0, 0, 0, 0.04);
+}
+
+html.light .bg-\[\#1d2025\],
+html.light .bg-\[\#1d2025\]\/60,
+html.light .bg-\[\#1d2025\]\/70,
+html.light .bg-\[\#1d2025\]\/80,
+html.light .bg-\[\#1d2025\]\/95 {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.06), 0 2px 6px -2px rgba(0, 0, 0, 0.04) !important;
+}
+
+/* Maintain dark dev console aesthetic for terminal log box in light mode */
+html.light .p-3.rounded-xl.bg-\[\#0c0e13\]\/90 {
+  background-color: #0f172a !important;
+}
+html.light .p-3.rounded-xl.bg-\[\#0c0e13\]\/90 .text-\[\#c7c4d7\] {
+  color: #e2e8f0 !important;
+}
+html.light .p-3.rounded-xl.bg-\[\#0c0e13\]\/90 .text-\[\#908fa0\] {
+  color: #94a3b8 !important;
+}
+
+html.light .bg-\[\#282a30\],
+html.light .bg-\[\#282a30\]\/60,
+html.light .bg-\[\#282a30\]\/80 {
+  background-color: #f1f5f9 !important;
+  color: #1e293b !important;
+}
+
+html.light .bg-\[\#33353b\],
+html.light .bg-\[\#37393f\] {
+  background-color: #e2e8f0 !important;
+}
+
+/* Border overrides */
+html.light .border-\[\#464554\],
+html.light .border-\[\#464554\]\/20,
+html.light .border-\[\#464554\]\/30,
+html.light .border-\[\#464554\]\/40,
+html.light .border-\[\#464554\]\/50 {
+  border-color: #e2e8f0 !important;
+}
+
+/* Text overrides */
+html.light .text-\[\#e2e2ea\] {
+  color: #0f172a !important;
+}
+
+html.light .text-\[\#c7c4d7\] {
+  color: #475569 !important;
+}
+
+html.light .text-\[\#908fa0\] {
+  color: #64748b !important;
+}
+
+/* Light mode Header navigation */
+html.light header a.text-\[\#c7c4d7\] {
+  color: #475569 !important;
+}
+html.light header a.text-\[\#c7c4d7\]:hover {
+  color: #0f172a !important;
+}
+
+/* Light mode Form Inputs & Controls */
+html.light input,
+html.light textarea,
+html.light select {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+html.light input:focus,
+html.light textarea:focus,
+html.light select:focus {
+  border-color: #8083ff !important;
+  box-shadow: 0 0 0 3px rgba(128, 131, 255, 0.18) !important;
+}
+
+/* Accent Badges & Cards in Light Mode */
+html.light .bg-\[\#03b5d3\]\/20 {
+  background-color: rgba(6, 182, 212, 0.12) !important;
+  color: #0284c7 !important;
+}
+
+html.light .bg-\[\#8083ff\]\/20 {
+  background-color: rgba(99, 102, 241, 0.12) !important;
+  color: #4338ca !important;
+  border-color: #6366f1 !important;
+}
+
+html.light .bg-\[\#00885d\]\/30 {
+  background-color: rgba(5, 150, 105, 0.12) !important;
+  color: #047857 !important;
+  border-color: #059669 !important;
+}
+
+html.light .text-\[\#4cd7f6\] {
+  color: #0284c7 !important;
+}
+
+html.light .text-\[\#c0c1ff\] {
+  color: #6366f1 !important;
+}
+
+html.light .text-\[\#4edea3\] {
+  color: #059669 !important;
+}
+
+/* Light mode popover shadows */
+html.light .shadow-2xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04) !important;
+}
+

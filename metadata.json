@@ -1,0 +1,6 @@
+{
+  "name": "pixelgrove.ai - AI Digital Studio",
+  "description": "Autonomous digital engineering, generative AI media pipelines, and scalable enterprise web & mobile architectures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
