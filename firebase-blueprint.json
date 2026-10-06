@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Lead": {
+      "title": "Lead",
+      "description": "Captured customer project enquiry",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "company": { "type": "string" },
+        "services": { "type": "array" },
+        "budget": { "type": "string" },
+        "projectDetails": { "type": "string" },
+        "status": { "type": "string" },
+        "priority": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "adminNotes": { "type": "string" },
+        "routedTo": { "type": "string" }
+      },
+      "required": ["id", "name", "email", "timestamp"]
+    },
+    "LeadQuery": {
+      "title": "LeadQuery",
+      "description": "Captured client lead query and project specification submitted through the enquiry form",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "dispatch_id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "company": { "type": "string" },
+        "services": { "type": "array" },
+        "budget": { "type": "string" },
+        "projectDetails": { "type": "string" },
+        "message": { "type": "string" },
+        "location": { "type": "string" },
+        "studio_node": { "type": "string" },
+        "status": { "type": "string" },
+        "priority": { "type": "string" },
+        "trust_score": { "type": "number" },
+        "authentication_status": { "type": "string" },
+        "suspicious_flags": { "type": "array" },
+        "routed_to": { "type": "string" },
+        "source": { "type": "string" },
+        "adminNotes": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "created_at": { "type": "string", "format": "date-time" },
+        "updated_at": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "name", "email", "timestamp"]
+    },
+    "Booking": {
+      "title": "Booking",
+      "description": "Scheduled architecture strategy call",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "clientName": { "type": "string" },
+        "clientEmail": { "type": "string", "format": "email" },
+        "clientPhone": { "type": "string" },
+        "selectedDate": { "type": "string" },
+        "selectedTime": { "type": "string" },
+        "callTopic": { "type": "string" },
+        "routedTo": { "type": "string" },
+        "meetUrl": { "type": "string" },
+        "status": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "clientName", "clientEmail", "selectedDate", "selectedTime", "timestamp"]
+    }
+  },
+  "firestore": {
+    "/leads/{leadId}": {
+      "schema": { "$ref": "#/entities/Lead" },
+      "description": "Collection of incoming project leads and customer enquiries"
+    },
+    "/lead_queries/{queryId}": {
+      "schema": { "$ref": "#/entities/LeadQuery" },
+      "description": "Collection table of all captured project lead queries and client specifications"
+    },
+    "/bookings/{bookingId}": {
+      "schema": { "$ref": "#/entities/Booking" },
+      "description": "Collection of scheduled client strategy consultations"
+    }
+  }
+}

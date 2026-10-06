@@ -1,0 +1,38 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isValidLead(data) {
+      return data.name is string && data.name.size() > 0 &&
+             data.email is string && data.email.size() > 0 &&
+             data.id is string;
+    }
+
+    function isValidBooking(data) {
+      return data.clientName is string && data.clientName.size() > 0 &&
+             data.clientEmail is string && data.clientEmail.size() > 0 &&
+             data.id is string;
+    }
+
+    match /leads/{leadId} {
+      allow read: if true;
+      allow create: if isValidLead(request.resource.data);
+      allow update, delete: if true;
+    }
+
+    match /lead_queries/{queryId} {
+      allow read: if true;
+      allow create: if isValidLead(request.resource.data);
+      allow update, delete: if true;
+    }
+
+    match /bookings/{bookingId} {
+      allow read: if true;
+      allow create: if isValidBooking(request.resource.data);
+      allow update, delete: if true;
+    }
+
+    match /test/{docId} {
+      allow read, write: if true;
+    }
+  }
+}

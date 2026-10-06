@@ -1,5 +1,291 @@
 [
   {
+    "id": "PG-743952",
+    "name": "Pre-Deployment Test",
+    "email": "qa@pixelgrove.ai",
+    "company": "Pixelgrove QA",
+    "services": [
+      "Custom GenAI Pipelines"
+    ],
+    "budget": "2L-5L",
+    "projectDetails": "Automated pre-deployment regression verification testing.",
+    "location": "Lucknow, Uttar Pradesh, India",
+    "studioNode": "LKO-IST-01",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "QUALIFIED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "authentication": {
+      "status": "AUTHENTICATED",
+      "trustScore": 100,
+      "isGenuine": true,
+      "verifiedAt": "2026-10-06T05:49:03.952Z",
+      "checks": [
+        {
+          "name": "Email Domain Integrity",
+          "passed": true,
+          "details": "Persistent email host verified (@pixelgrove.ai)."
+        },
+        {
+          "name": "Corporate Domain Analysis",
+          "passed": true,
+          "details": "Dedicated corporate/enterprise domain recognized (@pixelgrove.ai). High trust rating."
+        },
+        {
+          "name": "Client Identity Consistency",
+          "passed": true,
+          "details": "Full legal name structure detected with first and surname components."
+        },
+        {
+          "name": "Project Requirement Depth",
+          "passed": true,
+          "details": "General scope outline captured; full scope will be detailed during architecture intake."
+        },
+        {
+          "name": "Pattern Anomaly Detection",
+          "passed": true,
+          "details": "No spam anomalies or heuristic patterns identified."
+        }
+      ],
+      "suspiciousFlags": [],
+      "recommendation": "Lead verified authentic and cleared for immediate 4–6 hour discovery response.",
+      "details": {
+        "domainRisk": "Verified Enterprise",
+        "emailDomain": "pixelgrove.ai",
+        "domainType": "corporate"
+      }
+    },
+    "timestamp": "2026-10-06T05:49:03.952Z",
+    "source": "Website Project Discovery Form",
+    "adminNotes": "Verified during final pre-deployment audit",
+    "updatedAt": "2026-10-06T05:49:08.924Z"
+  },
+  {
+    "id": "PG-917902",
+    "name": "Arjun Sharma",
+    "email": "arjun@sharma-technologies.com",
+    "phone": "+91 98765 43210",
+    "company": "Sharma Tech",
+    "services": [
+      "Next.js 15 Web Applications",
+      "Custom GenAI Pipelines"
+    ],
+    "budget": "5L-10L",
+    "projectDetails": "Building custom AI media rendering system with Next.js and Firebase backend.",
+    "location": "Lucknow, Uttar Pradesh, India",
+    "studioNode": "LKO-IST-01",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "authentication": {
+      "status": "AUTHENTICATED",
+      "trustScore": 100,
+      "isGenuine": true,
+      "verifiedAt": "2026-10-06T05:18:37.902Z",
+      "checks": [
+        {
+          "name": "Email Domain Integrity",
+          "passed": true,
+          "details": "Persistent email host verified (@sharma-technologies.com)."
+        },
+        {
+          "name": "Corporate Domain Analysis",
+          "passed": true,
+          "details": "Dedicated corporate/enterprise domain recognized (@sharma-technologies.com). High trust rating."
+        },
+        {
+          "name": "Client Identity Consistency",
+          "passed": true,
+          "details": "Full legal name structure detected with first and surname components."
+        },
+        {
+          "name": "Project Requirement Depth",
+          "passed": true,
+          "details": "Technical context confirmed with domain parameters (ai, system)."
+        },
+        {
+          "name": "Pattern Anomaly Detection",
+          "passed": true,
+          "details": "No spam anomalies or heuristic patterns identified."
+        }
+      ],
+      "suspiciousFlags": [],
+      "recommendation": "Lead verified authentic and cleared for immediate 4–6 hour discovery response.",
+      "details": {
+        "domainRisk": "Verified Enterprise",
+        "emailDomain": "sharma-technologies.com",
+        "domainType": "corporate"
+      }
+    },
+    "timestamp": "2026-10-06T05:18:37.902Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-469839",
+    "name": "Aarav Singhania",
+    "email": "aarav.singhania@awadhgourmet.in",
+    "phone": "+91 94150 88776",
+    "company": "Awadh Gourmet Hospitality Group (Lucknow)",
+    "services": [
+      "restaurant-tech",
+      "qr-menu",
+      "crm-inventory"
+    ],
+    "budget": "5L-10L",
+    "projectDetails": "Operating 4 dining locations across Gomti Nagar and Hazratganj, Lucknow. Seeking an enterprise bilingual QR table ordering flow, autonomous kitchen display synchronizer, and inventory prediction engine.",
+    "location": "Lucknow, Uttar Pradesh, India",
+    "studioNode": "LKO-IST-01",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "authentication": {
+      "status": "AUTHENTICATED",
+      "trustScore": 100,
+      "isGenuine": true,
+      "verifiedAt": "2026-10-06T05:11:09.839Z",
+      "checks": [
+        {
+          "name": "Email Domain Integrity",
+          "passed": true,
+          "details": "Persistent email host verified (@awadhgourmet.in)."
+        },
+        {
+          "name": "Corporate Domain Analysis",
+          "passed": true,
+          "details": "Dedicated corporate/enterprise domain recognized (@awadhgourmet.in). High trust rating."
+        },
+        {
+          "name": "Client Identity Consistency",
+          "passed": true,
+          "details": "Full legal name structure detected with first and surname components."
+        },
+        {
+          "name": "Project Requirement Depth",
+          "passed": true,
+          "details": "Technical context confirmed with domain parameters (inventory, qr)."
+        },
+        {
+          "name": "Pattern Anomaly Detection",
+          "passed": true,
+          "details": "No spam anomalies or heuristic patterns identified."
+        }
+      ],
+      "suspiciousFlags": [],
+      "recommendation": "Lead verified authentic and cleared for immediate 4–6 hour discovery response."
+    },
+    "timestamp": "2026-10-06T05:11:09.839Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-490745",
+    "name": "Vikram Sethi",
+    "email": "vikram.sethi@lucknowtech.com",
+    "phone": "+91 98390 11223",
+    "company": "Sethi Robotics & AI",
+    "services": [
+      "web",
+      "ai-stack"
+    ],
+    "budget": "5L-10L",
+    "projectDetails": "High priority enquiry for building cloud-connected intelligent web portal in Lucknow.",
+    "location": "Lucknow, Uttar Pradesh, India",
+    "studioNode": "LKO-IST-01",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "authentication": {
+      "status": "AUTHENTICATED",
+      "trustScore": 100,
+      "isGenuine": true,
+      "verifiedAt": "2026-09-17T12:34:50.745Z",
+      "checks": [
+        {
+          "name": "Email Domain Integrity",
+          "passed": true,
+          "details": "Persistent email host verified (@lucknowtech.com)."
+        },
+        {
+          "name": "Corporate Domain Analysis",
+          "passed": true,
+          "details": "Dedicated corporate/enterprise domain recognized (@lucknowtech.com). High trust rating."
+        },
+        {
+          "name": "Client Identity Consistency",
+          "passed": true,
+          "details": "Full legal name structure detected with first and surname components."
+        },
+        {
+          "name": "Project Requirement Depth",
+          "passed": true,
+          "details": "General scope outline captured; full scope will be detailed during architecture intake."
+        },
+        {
+          "name": "Pattern Anomaly Detection",
+          "passed": true,
+          "details": "No spam anomalies or heuristic patterns identified."
+        }
+      ],
+      "suspiciousFlags": [],
+      "recommendation": "Lead verified authentic and cleared for immediate 4–6 hour discovery response."
+    },
+    "timestamp": "2026-09-17T12:34:50.745Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
+    "id": "PG-859752",
+    "name": "Arjun Verma",
+    "email": "arjun.verma@example.com",
+    "phone": "+91 98123 45678",
+    "company": "Verma Cloud Labs",
+    "services": [
+      "web",
+      "ai-stack"
+    ],
+    "budget": "5L-10L",
+    "projectDetails": "Inquiry regarding Google Cloud enterprise architecture and AI pipelines for Lucknow studio node.",
+    "location": "Lucknow, Uttar Pradesh, India",
+    "studioNode": "LKO-IST-01",
+    "routedTo": "pixelgrove.ai@gmail.com",
+    "status": "DISPATCHED",
+    "priority": "HIGH_VELOCITY_SPRINT",
+    "authentication": {
+      "status": "AUTHENTICATED",
+      "trustScore": 100,
+      "isGenuine": true,
+      "verifiedAt": "2026-09-14T09:40:59.752Z",
+      "checks": [
+        {
+          "name": "Email Domain Integrity",
+          "passed": true,
+          "details": "Persistent email host verified (@example.com)."
+        },
+        {
+          "name": "Corporate Domain Analysis",
+          "passed": true,
+          "details": "Dedicated corporate/enterprise domain recognized (@example.com). High trust rating."
+        },
+        {
+          "name": "Client Identity Consistency",
+          "passed": true,
+          "details": "Full legal name structure detected with first and surname components."
+        },
+        {
+          "name": "Project Requirement Depth",
+          "passed": true,
+          "details": "Technical context confirmed with domain parameters (ai, cloud, architecture)."
+        },
+        {
+          "name": "Pattern Anomaly Detection",
+          "passed": true,
+          "details": "No spam anomalies or heuristic patterns identified."
+        }
+      ],
+      "suspiciousFlags": [],
+      "recommendation": "Lead verified authentic and cleared for immediate 4–6 hour discovery response."
+    },
+    "timestamp": "2026-09-14T09:40:59.752Z",
+    "source": "Website Project Discovery Form"
+  },
+  {
     "id": "PG-591871",
     "name": "Aarav Singhania",
     "email": "aarav.singhania@awadhgourmet.in",
@@ -127,7 +413,7 @@
     "location": "Lucknow, Uttar Pradesh, India",
     "studioNode": "LKO-IST-01",
     "routedTo": "pixelgrove.ai@gmail.com",
-    "status": "DISPATCHED",
+    "status": "CONTACTED",
     "priority": "HIGH_VELOCITY_SPRINT",
     "authentication": {
       "status": "AUTHENTICATED",
@@ -165,7 +451,9 @@
       "recommendation": "Lead verified authentic and cleared for immediate 4–6 hour discovery response."
     },
     "timestamp": "2026-09-14T08:07:14.399Z",
-    "source": "Website Project Discovery Form"
+    "source": "Website Project Discovery Form",
+    "adminNotes": "Followed up via email regarding architecture intake.",
+    "updatedAt": "2026-09-14T09:29:58.335Z"
   },
   {
     "id": "PG-241085",

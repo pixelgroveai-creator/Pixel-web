@@ -60,7 +60,7 @@ export const PRESET_SCENARIOS: PresetScenario[] = [
     id: 'inbox-verification',
     badge: 'Direct Inbox Test',
     title: 'Pixelgrove Verification Lead',
-    summary: 'Direct delivery test to pixelgrove.ai@gmail.com & Supabase PostgreSQL',
+    summary: 'Direct delivery test to pixelgrove.ai@gmail.com & Google Cloud Firestore',
     data: {
       name: 'Pixelgrove Verification Lead',
       email: 'pixelgrove.ai@gmail.com',
@@ -68,7 +68,7 @@ export const PRESET_SCENARIOS: PresetScenario[] = [
       company: 'Pixelgrove QA Studio (Lucknow Node LKO-IST-01)',
       services: ['web', 'restaurant-tech', 'ai-stack'],
       budget: '5L-10L',
-      projectDetails: 'Live test verification confirming inbound project intake lands in Supabase PostgreSQL and forwards directly to pixelgrove.ai@gmail.com with guaranteed 4-6 hour response SLA.'
+      projectDetails: 'Live test verification confirming inbound project intake lands in Google Cloud Firestore and forwards directly to pixelgrove.ai@gmail.com with guaranteed 4-6 hour response SLA.'
     }
   }
 ];
@@ -993,11 +993,11 @@ export const LeadCaptureSection: React.FC<LeadCaptureSectionProps> = ({
                       </div>
                       <div className="grid grid-cols-2 gap-1 text-[11px] font-mono">
                         <span className="text-[#908fa0]">Trust Score:</span>
-                        <span className="text-right text-white font-bold">{leadAuth.trustScore}%</span>
+                        <span className="text-right text-white font-bold">{leadAuth.trustScore ?? 100}%</span>
                         <span className="text-[#908fa0]">Quality Standard:</span>
                         <span className="text-right text-[#4edea3]">Strict Validation Passed</span>
                         <span className="text-[#908fa0]">Domain Analysis:</span>
-                        <span className="text-right text-[#c0c1ff] truncate">{leadAuth.details.domainRisk || 'Verified'}</span>
+                        <span className="text-right text-[#c0c1ff] truncate">{leadAuth.details?.domainRisk || (leadAuth.status === 'AUTHENTICATED' ? 'Verified Enterprise' : 'Verified Standard')}</span>
                       </div>
                       <p className="text-[11px] text-[#c7c4d7] pt-1.5 border-t border-[#464554]/20 leading-relaxed">
                         {leadAuth.recommendation}

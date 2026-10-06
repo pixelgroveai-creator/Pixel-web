@@ -160,115 +160,121 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
           {/* Right Column: High-Tech Glassmorphism Neural Orchestrator HUD */}
           <div className="lg:col-span-6 w-full">
-            <div className="bg-[#1d2025]/60 backdrop-blur-2xl border border-[#4cd7f6]/30 rounded-2xl p-5 sm:p-6 shadow-[0_8px_32px_rgba(0,0,0,0.4),0_0_40px_rgba(76,215,246,0.15)] relative overflow-hidden group">
+            <div className="bg-[#1d2025]/60 backdrop-blur-2xl border border-[#4cd7f6]/30 rounded-2xl p-3.5 sm:p-6 shadow-[0_8px_32px_rgba(0,0,0,0.4),0_0_40px_rgba(76,215,246,0.15)] relative overflow-hidden group">
               {/* Top HUD Bar */}
-              <div className="flex items-center justify-between pb-3 mb-4 border-b border-[#464554]/30">
-                <div className="flex items-center gap-2">
-                  <span className="w-2.5 h-2.5 rounded-full bg-[#ffb4ab]" />
-                  <span className="w-2.5 h-2.5 rounded-full bg-[#4cd7f6]" />
-                  <span className="w-2.5 h-2.5 rounded-full bg-[#4edea3]" />
-                  <span className="font-mono text-xs sm:text-sm text-[#e2e2ea] ml-1 font-semibold tracking-wide">
+              <div className="flex items-center justify-between pb-3 mb-3.5 sm:mb-4 border-b border-[#464554]/30">
+                <div className="flex items-center gap-2 min-w-0">
+                  <div className="flex items-center gap-1.5 shrink-0">
+                    <span className="w-2.5 h-2.5 rounded-full bg-[#ffb4ab]" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-[#4cd7f6]" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-[#4edea3]" />
+                  </div>
+                  <span className="font-mono text-xs sm:text-sm text-[#e2e2ea] font-semibold tracking-wide truncate">
                     AI SYNAPTIC ORCHESTRATOR // HUD-v4.2
                   </span>
                 </div>
+                <span className="hidden sm:inline-block font-mono text-[10px] text-[#4edea3] bg-[#00885d]/20 px-2 py-0.5 rounded shrink-0">
+                  LIVE TELEMETRY
+                </span>
               </div>
 
               {/* Real-time Synaptic Pipeline Feed */}
-              <div className="space-y-4 mb-4">
+              <div className="space-y-3 sm:space-y-4 mb-3.5 sm:mb-4">
                 {/* Metric HUD Cards */}
-                <div className="grid grid-cols-3 gap-2">
-                  <div className="p-3 rounded-xl bg-[#0c0e13]/80 border border-[#464554]/30 backdrop-blur-md">
-                    <span className="text-[10px] uppercase tracking-wider text-[#908fa0] block font-mono">
+                <div className="grid grid-cols-3 gap-1.5 sm:gap-2">
+                  <div className="p-2 sm:p-3 rounded-xl bg-[#0c0e13]/80 border border-[#464554]/30 backdrop-blur-md overflow-hidden">
+                    <span className="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#908fa0] block font-mono truncate">
                       Synaptic Nodes
                     </span>
-                    <span className="font-mono text-[#4cd7f6] font-bold text-sm sm:text-base">
+                    <span className="font-mono text-[#4cd7f6] font-bold text-xs sm:text-base block truncate">
                       380+ Active
                     </span>
-                    <span className="text-[10px] text-[#4edea3] block mt-0.5">
+                    <span className="text-[9px] sm:text-[10px] text-[#4edea3] block mt-0.5 truncate">
                       ↑ 99.98% sync
                     </span>
                   </div>
-                  <div className="p-3 rounded-xl bg-[#0c0e13]/80 border border-[#464554]/30 backdrop-blur-md">
-                    <span className="text-[10px] uppercase tracking-wider text-[#908fa0] block font-mono">
+                  <div className="p-2 sm:p-3 rounded-xl bg-[#0c0e13]/80 border border-[#464554]/30 backdrop-blur-md overflow-hidden">
+                    <span className="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#908fa0] block font-mono truncate">
                       Axon Latency
                     </span>
-                    <span className="font-mono text-[#4edea3] font-bold text-sm sm:text-base">
+                    <span className="font-mono text-[#4edea3] font-bold text-xs sm:text-base block truncate">
                       1.4ms P99
                     </span>
-                    <span className="text-[10px] text-[#908fa0] block mt-0.5 font-mono">
+                    <span className="text-[9px] sm:text-[10px] text-[#908fa0] block mt-0.5 font-mono truncate">
                       DEL-IST node
                     </span>
                   </div>
-                  <div className="p-3 rounded-xl bg-[#0c0e13]/80 border border-[#464554]/30 backdrop-blur-md">
-                    <span className="text-[10px] uppercase tracking-wider text-[#908fa0] block font-mono">
+                  <div className="p-2 sm:p-3 rounded-xl bg-[#0c0e13]/80 border border-[#464554]/30 backdrop-blur-md overflow-hidden">
+                    <span className="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#908fa0] block font-mono truncate">
                       Sprint Velocity
                     </span>
-                    <span className="font-mono text-[#c0c1ff] font-bold text-sm sm:text-base">
+                    <span className="font-mono text-[#c0c1ff] font-bold text-xs sm:text-base block truncate">
                       3.2x Realized
                     </span>
-                    <span className="text-[10px] text-[#c0c1ff] block mt-0.5">
+                    <span className="text-[9px] sm:text-[10px] text-[#c0c1ff] block mt-0.5 truncate">
                       Zero bloat
                     </span>
                   </div>
                 </div>
 
                 {/* Live Pipeline Workflows in Flight */}
-                <div className="p-4 rounded-xl bg-[#0c0e13]/70 border border-[#c0c1ff]/20 backdrop-blur-md space-y-2.5">
-                  <div className="flex items-center justify-between text-xs">
-                    <span className="flex items-center gap-1.5 text-[#e2e2ea] font-semibold">
-                      <Activity size={14} className="text-[#c0c1ff]" /> Active Engineering Workstreams
+                <div className="p-3 sm:p-4 rounded-xl bg-[#0c0e13]/70 border border-[#c0c1ff]/20 backdrop-blur-md space-y-2 sm:space-y-2.5">
+                  <div className="flex items-center justify-between text-xs gap-2">
+                    <span className="flex items-center gap-1.5 text-[#e2e2ea] font-semibold truncate">
+                      <Activity size={14} className="text-[#c0c1ff] shrink-0" />
+                      <span className="truncate">Active Engineering Workstreams</span>
                     </span>
-                    <span className="font-mono text-[#4cd7f6] text-[11px]">4 Pods Deploying</span>
+                    <span className="font-mono text-[#4cd7f6] text-[10px] sm:text-[11px] shrink-0">4 Pods Deploying</span>
                   </div>
 
                   {/* Pod 1 */}
-                  <div className="p-2.5 rounded-lg bg-[#1d2025]/70 border border-[#464554]/20 flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-[#c0c1ff] animate-pulse" />
-                      <span className="font-mono text-xs text-[#e2e2ea]">
+                  <div className="p-2 sm:p-2.5 rounded-lg bg-[#1d2025]/70 border border-[#464554]/20 flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-2 min-w-0">
+                      <span className="w-2 h-2 rounded-full bg-[#c0c1ff] animate-pulse shrink-0" />
+                      <span className="font-mono text-[11px] sm:text-xs text-[#e2e2ea] truncate">
                         Next.js 15 Edge App (SaaS Portal)
                       </span>
                     </div>
-                    <span className="px-2 py-0.5 rounded bg-[#8083ff]/20 text-[#c0c1ff] font-mono text-[11px]">
+                    <span className="px-2 py-0.5 rounded bg-[#8083ff]/20 text-[#c0c1ff] font-mono text-[10px] sm:text-[11px] shrink-0">
                       Sprint 2 • 88%
                     </span>
                   </div>
 
                   {/* Pod 2 */}
-                  <div className="p-2.5 rounded-lg bg-[#1d2025]/70 border border-[#464554]/20 flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-[#4cd7f6] animate-pulse" />
-                      <span className="font-mono text-xs text-[#e2e2ea]">
+                  <div className="p-2 sm:p-2.5 rounded-lg bg-[#1d2025]/70 border border-[#464554]/20 flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-2 min-w-0">
+                      <span className="w-2 h-2 rounded-full bg-[#4cd7f6] animate-pulse shrink-0" />
+                      <span className="font-mono text-[11px] sm:text-xs text-[#e2e2ea] truncate">
                         Flutter Mobile (iOS + Android BLE)
                       </span>
                     </div>
-                    <span className="px-2 py-0.5 rounded bg-[#03b5d3]/20 text-[#4cd7f6] font-mono text-[11px]">
+                    <span className="px-2 py-0.5 rounded bg-[#03b5d3]/20 text-[#4cd7f6] font-mono text-[10px] sm:text-[11px] shrink-0">
                       Deploy Ready
                     </span>
                   </div>
 
                   {/* Pod 3 */}
-                  <div className="p-2.5 rounded-lg bg-[#1d2025]/70 border border-[#464554]/20 flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-[#4edea3] animate-pulse" />
-                      <span className="font-mono text-xs text-[#e2e2ea]">
+                  <div className="p-2 sm:p-2.5 rounded-lg bg-[#1d2025]/70 border border-[#464554]/20 flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-2 min-w-0">
+                      <span className="w-2 h-2 rounded-full bg-[#4edea3] animate-pulse shrink-0" />
+                      <span className="font-mono text-[11px] sm:text-xs text-[#e2e2ea] truncate">
                         ComfyUI Headless Synthetic Ad Pipeline
                       </span>
                     </div>
-                    <span className="px-2 py-0.5 rounded bg-[#00885d]/20 text-[#4edea3] font-mono text-[11px]">
+                    <span className="px-2 py-0.5 rounded bg-[#00885d]/20 text-[#4edea3] font-mono text-[10px] sm:text-[11px] shrink-0">
                       2.4K assets / hr
                     </span>
                   </div>
                 </div>
 
                 {/* Live Output Console Stream */}
-                <div className="p-3 rounded-xl bg-[#0c0e13]/90 border border-[#464554]/30 font-mono text-xs space-y-1.5">
-                  <div className="flex items-center justify-between text-[#908fa0] text-[11px] pb-1 border-b border-[#464554]/20">
-                    <span className="flex items-center gap-1.5">
-                      <Terminal size={12} /> TERMINAL LOG STREAM
+                <div className="p-2.5 sm:p-3 rounded-xl bg-[#0c0e13]/90 border border-[#464554]/30 font-mono text-xs space-y-1.5">
+                  <div className="flex items-center justify-between text-[#908fa0] text-[10px] sm:text-[11px] pb-1 border-b border-[#464554]/20">
+                    <span className="flex items-center gap-1.5 truncate">
+                      <Terminal size={12} className="shrink-0" /> TERMINAL LOG STREAM
                     </span>
-                    <div className="flex items-center gap-2">
-                      <span className="text-[#4edea3]">WEBSOCKET_CONNECTED</span>
+                    <div className="flex items-center gap-2 shrink-0">
+                      <span className="text-[#4edea3] text-[10px]">CONNECTED</span>
                       <button
                         onClick={() => setIsLogLive(!isLogLive)}
                         className="text-[#908fa0] hover:text-[#e2e2ea] cursor-pointer"
@@ -278,9 +284,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                       </button>
                     </div>
                   </div>
-                  <div className="text-[#c7c4d7] font-mono text-[11px] leading-relaxed space-y-1 max-h-24 overflow-y-auto">
+                  <div className="text-[#c7c4d7] font-mono text-[10px] sm:text-[11px] leading-relaxed space-y-1 max-h-20 sm:max-h-24 overflow-y-auto">
                     {logs.map((log, idx) => (
-                      <p key={idx} className="transition-opacity duration-300">
+                      <p key={idx} className="transition-opacity duration-300 break-words">
                         <span className="text-[#4edea3]">[{log.time}]</span>{' '}
                         <span className="text-[#4cd7f6]">&gt;</span>{' '}
                         <span className={log.color}>{log.text}</span>
@@ -292,13 +298,13 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
               {/* Terminal Footer CTA Strip */}
               <div className="flex items-center justify-between pt-2 border-t border-[#464554]/30 text-xs">
-                <div className="flex items-center gap-2 text-[#c7c4d7] font-mono">
-                  <span className="inline-block w-2 h-2 rounded-full bg-[#4cd7f6] animate-ping" />
-                  <span>DISCOVERY QUEUE: OPEN</span>
+                <div className="flex items-center gap-2 text-[#c7c4d7] font-mono text-[11px] sm:text-xs truncate">
+                  <span className="inline-block w-2 h-2 rounded-full bg-[#4cd7f6] animate-ping shrink-0" />
+                  <span className="truncate">DISCOVERY QUEUE: OPEN</span>
                 </div>
                 <button
                   onClick={onInitiateBriefClick}
-                  className="inline-flex items-center gap-1 text-[#c0c1ff] font-semibold hover:text-[#4cd7f6] transition-colors cursor-pointer"
+                  className="inline-flex items-center gap-1 text-[#c0c1ff] font-semibold hover:text-[#4cd7f6] transition-colors cursor-pointer shrink-0 ml-2"
                 >
                   <span>Initiate Brief</span>
                   <ArrowRight size={14} />

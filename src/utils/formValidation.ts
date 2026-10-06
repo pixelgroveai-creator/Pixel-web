@@ -31,6 +31,11 @@ export interface LeadAuthenticationResult {
   }[];
   suspiciousFlags: string[];
   recommendation: string;
+  details?: {
+    domainRisk?: string;
+    emailDomain?: string;
+    domainType?: 'corporate' | 'webmail' | 'disposable';
+  };
 }
 
 // Known temporary, disposable, or throwaway email providers
@@ -398,6 +403,19 @@ export function authenticateLeadEnquiry(data: {
     ? 'Lead accepted and forwarded to studio inbox; flagged with automated manual review advisory.'
     : 'Lead verified authentic and cleared for immediate 4–6 hour discovery response.';
 
+  let domainRisk = 'Standard (Verified)';
+  let domainType: 'corporate' | 'webmail' | 'disposable' = 'webmail';
+  if (DISPOSABLE_EMAIL_DOMAINS.has(domain)) {
+    domainRisk = 'High Risk (Disposable)';
+    domainType = 'disposable';
+  } else if (!isWebmail && domain) {
+    domainRisk = 'Verified Enterprise';
+    domainType = 'corporate';
+  } else if (isWebmail) {
+    domainRisk = 'Verified Webmail';
+    domainType = 'webmail';
+  }
+
   return {
     status,
     trustScore: Math.max(10, Math.min(100, trustScore)),
@@ -405,6 +423,11 @@ export function authenticateLeadEnquiry(data: {
     verifiedAt: new Date().toISOString(),
     checks,
     suspiciousFlags,
-    recommendation
+    recommendation,
+    details: {
+      domainRisk,
+      emailDomain: domain,
+      domainType
+    }
   };
 }

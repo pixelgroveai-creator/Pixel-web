@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
 import { StackSection } from './components/StackSection';
@@ -13,11 +13,26 @@ import { AdvantageSection } from './components/AdvantageSection';
 import { LeadCaptureSection } from './components/LeadCaptureSection';
 import { Footer } from './components/Footer';
 import { BookingModal } from './components/BookingModal';
+import { AdminPanel } from './components/AdminPanel';
 import { FluidGalaxyBackground } from './components/FluidGalaxyBackground';
 
 export default function App() {
   const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
+  const [isAdminPanelOpen, setIsAdminPanelOpen] = useState(false);
   const [preselectedService, setPreselectedService] = useState<string | null>(null);
+
+  // Check URL hash for direct #admin access
+  useEffect(() => {
+    const handleHashChange = () => {
+      if (window.location.hash === '#admin') {
+        setIsAdminPanelOpen(true);
+      }
+    };
+
+    handleHashChange();
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
 
   const scrollToLeadCapture = () => {
     const el = document.getElementById('lead-capture');
@@ -59,6 +74,7 @@ export default function App() {
         <Header
           onStartProjectClick={handleStartProject}
           onBookCallClick={handleBookCall}
+          onAdminClick={() => setIsAdminPanelOpen(true)}
         />
 
         {/* Main Content Area */}
@@ -102,13 +118,24 @@ export default function App() {
         </main>
 
         {/* Global Studio Footer */}
-        <Footer />
+        <Footer onAdminClick={() => setIsAdminPanelOpen(true)} />
       </div>
 
       {/* Interactive 1-on-1 Architecture Call Scheduling Modal */}
       <BookingModal
         isOpen={isBookingModalOpen}
         onClose={() => setIsBookingModalOpen(false)}
+      />
+
+      {/* Interactive Admin Leads Intelligence Panel */}
+      <AdminPanel
+        isOpen={isAdminPanelOpen}
+        onClose={() => {
+          setIsAdminPanelOpen(false);
+          if (window.location.hash === '#admin') {
+            history.replaceState(null, '', window.location.pathname);
+          }
+        }}
       />
     </div>
   );

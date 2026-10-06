@@ -14,11 +14,11 @@ export const CASE_STUDIES: CaseStudy[] = [
     imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDvAEXscFbUrd0C6KzUtFCOVYYAvdjhcC3Na_Sq2phCSsad9Df8aAcW5CqrQmnIT81O1dNo5FXRxJio9RxHC13TYeTptnIkoDm6DjXrtnLqoggYycEiE53cEOY03KYM8iYqJc3v3_ZOrmbNyDMrhTg6jxW75_nGX2h40tOlYvDTb4k3yHWducIOfxuT3TTvAJBYLAixiKvC5-EPQxjfB176g88lbb-IMWToze8-LZr3D5WHP2zrM0cx-w',
     imageAlt: 'Futuristic high-tech analytics dashboard interface on dark slate background with glowing neon indigo and cyan charts, displaying real-time e-commerce revenue data and latency metrics for modern SaaS enterprise',
     summary: 'Architected high-velocity Next.js 15 dashboard replacing legacy Ruby infrastructure, handling cross-border treasury routing with sub-50ms render latency.',
-    techStack: ['Next.js 15', 'Supabase', 'Tailwind CSS', 'Server Actions'],
+    techStack: ['Next.js 15', 'Google Cloud Firestore', 'Tailwind CSS', 'Server Actions'],
     fullDetails: {
       overview: 'NexusPay required an enterprise-tier treasury dashboard capable of streaming live multi-currency settlement rates with zero UI jitter.',
       challenge: 'Their existing legacy monolith suffered from 3.8s page load times and periodic transaction timeouts during high-volatility market opens.',
-      solution: 'We rebuilt their client tier using Next.js 15 Edge SSR, Supabase realtime webhooks, and custom WebGL charting components with optimistic state updates.',
+      solution: 'We rebuilt their client tier using Next.js 15 Edge SSR, Google Cloud real-time streams, and custom WebGL charting components with optimistic state updates.',
       impactMetrics: [
         { label: 'Render Latency', value: '<42ms', detail: 'Down from 3.8 seconds' },
         { label: 'Organic Traffic', value: '+340%', detail: 'Achieved in 90 days' },

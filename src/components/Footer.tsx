@@ -1,8 +1,12 @@
 import React from 'react';
-import { ArrowUpRight, Mail } from 'lucide-react';
+import { ArrowUpRight, Mail, ShieldCheck } from 'lucide-react';
 import { Logo } from './Logo';
 
-export const Footer: React.FC = () => {
+interface FooterProps {
+  onAdminClick?: () => void;
+}
+
+export const Footer: React.FC<FooterProps> = ({ onAdminClick }) => {
   return (
     <footer className="w-full relative z-10 bg-[#0c0e13]/85 backdrop-blur-xl border-t border-[#464554]/20">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12">
@@ -85,6 +89,15 @@ export const Footer: React.FC = () => {
             <span>Made in India 🇮🇳 with ❤️</span>
           </div>
           <div className="flex items-center gap-6">
+            {onAdminClick && (
+              <button
+                onClick={onAdminClick}
+                className="hover:text-white text-[#8083ff] transition-colors flex items-center gap-1 cursor-pointer font-medium"
+              >
+                <ShieldCheck className="w-3.5 h-3.5" />
+                <span>Admin Leads Portal</span>
+              </button>
+            )}
             <a href="#" className="hover:text-[#c7c4d7] transition-colors">
               Privacy Policy
             </a>

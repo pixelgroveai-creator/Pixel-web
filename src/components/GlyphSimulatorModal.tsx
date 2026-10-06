@@ -159,7 +159,7 @@ export const GlyphSimulatorModal: React.FC<GlyphSimulatorModalProps> = ({ type, 
                         : 'bg-[#171717] text-[#a3a3a3] border-[#2e2e2e] hover:border-[#444]'
                     }`}
                   >
-                    Bank Auth OTP
+                    Banking Notification
                   </button>
                 </div>
               </div>

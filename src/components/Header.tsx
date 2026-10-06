@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ShieldCheck } from 'lucide-react';
 import { Logo } from './Logo';
 
 interface HeaderProps {
   onStartProjectClick: () => void;
   onBookCallClick: () => void;
+  onAdminClick?: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({ onStartProjectClick, onBookCallClick }) => {
+export const Header: React.FC<HeaderProps> = ({ onStartProjectClick, onBookCallClick, onAdminClick }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [currentTimeIST, setCurrentTimeIST] = useState('');
 
@@ -87,6 +88,17 @@ export const Header: React.FC<HeaderProps> = ({ onStartProjectClick, onBookCallC
 
         {/* Action Buttons */}
         <div className="flex items-center gap-2 sm:gap-3 relative">
+          {onAdminClick && (
+            <button
+              onClick={onAdminClick}
+              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-[#282a30] hover:bg-[#33353b] text-[#c7c4d7] hover:text-white text-xs font-semibold border border-[#464554]/40 hover:border-[#8083ff]/50 transition-all cursor-pointer shadow-sm"
+              title="Open Admin Leads & Enquiries Portal"
+            >
+              <ShieldCheck className="w-3.5 h-3.5 text-[#8083ff]" />
+              <span>Admin Leads</span>
+            </button>
+          )}
+
           <button
             onClick={onStartProjectClick}
             className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#8083ff] text-[#0d0096] text-xs sm:text-sm font-semibold hover:bg-[#c0c1ff] transition-all duration-200 shadow-[0_0_16px_rgba(128,131,255,0.35)] hover:shadow-[0_0_24px_rgba(192,193,255,0.5)] cursor-pointer"
@@ -156,6 +168,18 @@ export const Header: React.FC<HeaderProps> = ({ onStartProjectClick, onBookCallC
           </div>
 
           <div className="pt-2 flex flex-col gap-2">
+            {onAdminClick && (
+              <button
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  onAdminClick();
+                }}
+                className="w-full py-2 rounded-lg bg-[#282a30] text-[#c0c1ff] border border-[#8083ff]/40 text-xs font-medium flex items-center justify-center gap-2"
+              >
+                <ShieldCheck className="w-4 h-4 text-[#8083ff]" />
+                <span>Open Admin Leads Portal</span>
+              </button>
+            )}
             <button
               onClick={() => {
                 setMobileMenuOpen(false);
